@@ -29,7 +29,7 @@ function showSlides(n) {
   /*dots[slideIndex-1].className += " active";*/
 }
 
-
+// Auto Slide show
 
 setInterval(function () {
     plusSlides(1);

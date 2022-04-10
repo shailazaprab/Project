@@ -1,3 +1,6 @@
+
+  /* Header */
+
 header{
   background:WHITE;
   padding :25px;
@@ -26,6 +29,8 @@ a{
 
   }
 
+/* About Page Bar */
+
   .about{
   text-align: center;
    background: blue;
@@ -33,26 +38,21 @@ a{
    margin:0 auto;
   }
 
+
+  /* Services Page Bar */
+
   .services{
   text-align: center;
    background: blue;
   }
 
-  .contact{
-  text-align: center;
-   background: blue;
-  }
 
 
   h1 {
   color: white;
 }
 
-.third-container{
- display:flex-end;
- justify-content: center;
 
- }
 
 
 p.top-left {
@@ -76,7 +76,7 @@ p.top-left {
   width:50px;
   height:50px;
   background-color: blue;
-  border:2px solid pink;
+   /* border:2px solid pink; */
 }
 
 }
@@ -140,15 +140,13 @@ p.top-left {
   animation: 2s slide-right 0.5s forwards;
 transform:translateX(-100%);
 }
+/* Animation for text1 -Slide right */
 
-
-@keyframes slide-right {
-  to {
-    transform:translateX(0);
-  }
-}
-
-
+ @keyframes slide-right {
+   to {
+     transform:translateX(0);
+ }
+ }
 
 
 
@@ -239,6 +237,8 @@ transform:translateX(-100%);
 
 }
 
+
+/* Service page */
 .service1{
   display:flex;
 
@@ -264,7 +264,7 @@ transform:translateX(-100%);
     display:flex;
   }
 
-
+/* Sevice List  */
 
 .List1{
   margin: 100px;
@@ -279,19 +279,19 @@ transform:translateX(-100%);
 
 
 
-
 .topic{
   color:blue;
-  font-size:30px;
-  font-weight:bold;
+  font-size:25px;
+  /* font-weight:bold; */
 
 
 
 }
 
 
-.summary{
-font-size:35.5px;
+/* Formatting for Questions -About us*/
+ .summary{
+font-size:35.5px; */
 padding-top:10px
 margin:250px;
  color: #1E90FF;
@@ -299,38 +299,17 @@ margin:250px;
  padding-right:250px;
    }
 
+
+/* About us Answers */
 .ans{
-  font-size:25.5px;
-   color: black;
+   font-size:25.5px;
+    color: black;
 
-     }
-
-
-
- /* .consultation{ */
-  /* width:900px; */
-  /* height:500px; */
-  /* background-color: #f5f5f5; */
-/* } */
+      }
 
 
-/* } */
 
-/* .form1{ */
-  /* padding-right: 60px; */
-/* } */
-
-
-/* .city-container { */
-  /* align-items: center; */
-  /* color: white; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* gap:350px; */
-/*  */
-/* } */
-
-/* } */
+/* Cotact Form */
 
 {
   margin:0 auto;
